@@ -14,8 +14,8 @@ import '@angular/forms';
 import '@angular/http';
 import '@angular/router';
 
-// AngularClass
-import '@angularclass/hmr';
+// hot reload
+import 'hot-app';
 
 // RxJS
 import 'rxjs/add/operator/map';

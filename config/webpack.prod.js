@@ -164,27 +164,6 @@ module.exports = function(env) {
       }),
 
       /**
-       * Plugin: NormalModuleReplacementPlugin
-       * Description: Replace resources that matches resourceRegExp with newResource
-       *
-       * See: http://webpack.github.io/docs/list-of-plugins.html#normalmodulereplacementplugin
-       */
-
-      new NormalModuleReplacementPlugin(
-        /angular2-hmr/,
-        helpers.root('config/modules/angular2-hmr-prod.js')
-      ),
-
-      /**
-       * Plugin: IgnorePlugin
-       * Description: Don’t generate modules for requests matching the provided RegExp.
-       *
-       * See: http://webpack.github.io/docs/list-of-plugins.html#ignoreplugin
-       */
-
-      // new IgnorePlugin(/angular2-hmr/),
-
-      /**
        * Plugin: CompressionPlugin
        * Description: Prepares compressed versions of assets to serve
        * them with Content-Encoding
